@@ -1,0 +1,57 @@
+{
+  "info": {
+    "name": "Saarthi API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Check Tone",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"message\": \"I am feeling a bit low today.\"\n}"
+        },
+        "url": {
+          "raw": "https://saarthi-backend-42eo.onrender.com/api/tone-check",
+          "protocol": "https",
+          "host": [
+            "saarthi-backend-42eo",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "tone-check"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Feed Info",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://saarthi-backend-42eo.onrender.com/api/feed-info/demouser",
+          "protocol": "https",
+          "host": [
+            "saarthi-backend-42eo",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "feed-info",
+            "demouser"
+          ]
+        }
+      }
+    }
+  ]
+}
