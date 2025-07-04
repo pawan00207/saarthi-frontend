@@ -1,6 +1,7 @@
 import React from "react";
 import ToneChecker from "./components/ToneChecker";
-import FeedInfo from "./components/FeedInfo";
+import FeedInfo from './components/FeedInfo';
+
 
 function App() {
   return (
